@@ -1,6 +1,6 @@
 {
   "name": "@intelligent-farming/chirpstack-join-aggregator",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Deduplicate a stream of LoRaWAN join requests by DevEUI and surface aggregated state — first/last-seen timestamps, retry count, observing gateways — so an onboarding UI can render one row per device instead of a flood per retry. Subscribes to chirpstack-join-watcher (or any structural equivalent) and emits change events.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

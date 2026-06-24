@@ -6,7 +6,7 @@
  * few seconds for the first minute, then on a backoff. A live onboarding UI
  * that renders one row per raw `'join'` event ends up showing the same DevEUI
  * dozens of times. This module sits in front of
- * `@intelligentfarming/chirpstack-join-watcher` (or any source emitting the
+ * `@intelligent-farming/chirpstack-join-watcher` (or any source emitting the
  * same shape) and collapses retries into a single {@link JoinCandidateState}
  * per DevEUI — with first/last-seen timestamps, retry count, and the set of
  * gateways that have heard it.
